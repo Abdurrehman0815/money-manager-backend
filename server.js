@@ -13,7 +13,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: '*', // Will update with specific Vercel URL after deployment
+  origin: ['https://money-manager-frontend-steel.vercel.app', 'http://localhost:3000'],
   credentials: true
 }));
 app.use(express.json()); // Allows us to accept JSON data in the body
