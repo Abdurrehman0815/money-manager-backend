@@ -8,8 +8,8 @@ services:
       - key: PORT
         value: 10000
       - key: MONGO_URI
-        sync: false
+        value: mongodb+srv://abdur:abdur123@money.utbxxxb.mongodb.net/?appName=money-manager&retryWrites=true&w=majority
       - key: JWT_SECRET
-        sync: false
+        value: guvi_hackathon_secret_key_2026
       - key: NODE_ENV
         value: production
