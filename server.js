@@ -13,7 +13,12 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['https://money-manager-frontend-steel.vercel.app', 'https://money-manager-frontend-bjsj188te.vercel.app', 'http://localhost:3000'],
+  origin: [
+    'https://money-manager-frontend-steel.vercel.app',
+    'https://money-manager-frontend-bjsj188te.vercel.app',
+    'https://money-manager-frontend-on2h6z27a.vercel.app',
+    'http://localhost:3000'
+  ],
   credentials: true
 }));
 app.use(express.json()); // Allows us to accept JSON data in the body
